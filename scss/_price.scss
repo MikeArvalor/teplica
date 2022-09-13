@@ -1,0 +1,47 @@
+.price_block{
+    & .price_wrapper{
+        & .price_wrapper_title{
+            margin-top: 50px;
+            text-align: center;
+            & p{
+                font-size: 40px;
+            }
+            & hr{
+                width: 150px;
+                margin-bottom: 50px;
+            }
+        }
+        & .price_card{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-column-gap:30px;
+        
+            & .card{
+                box-shadow: 0 10px 30px 0 #dfdfdf;
+                margin-bottom: 30px;
+                border-radius: 50px;//или без радиуса
+                & .text_under_photo{
+                    position: absolute;
+                    background: #00ba20;
+                    font-size: 20px;
+                    padding: 5px 20px 5px 10px;
+                    border-radius: 0 6px 6px 0;
+                    color: #fff;
+                    pointer-events: none;
+                }
+                & .img-wrap-price{
+                    & img{
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+                }
+                & .price{
+                    text-align: center;
+                    font-weight: 700;
+                    color: #af1204;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

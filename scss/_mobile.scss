@@ -1,0 +1,439 @@
+@media (max-width: 1300px) {
+    .container{
+        max-width: 1140px;
+        padding: 0;
+    }
+}
+@media (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (max-width: 992px) {
+   
+        .container{
+            max-width: none;
+            padding: 0 10px;
+        }
+    
+}
+@media (max-width:991px){
+    .home_block{
+        background-size:cover;
+        & .home_wrapper{
+            & .home_additional{
+                margin-bottom: 0;
+               & .home_additional_form{
+                & .home_additional_form_btn{
+                    margin-bottom: 30px;
+                }
+                & .home_additional_form_text{
+                    font-size: 28px;
+                }
+               }
+            }
+        }
+    }
+    .card_block_right{
+        & .card_wrapper_right{
+            display: flex;flex-flow: wrap;
+            & .right_block{
+                order: 2;
+            }
+            & .left_block{
+                order: 1;
+            }
+        }
+    }
+    .card_block{
+        & .card_wrapper{
+            display: flex;flex-flow: wrap;
+        }
+    }
+    .footer_block{
+        & .footer_wrapper{
+            text-align: center;
+            grid-template-columns: 1fr;
+            & .list_of_contact{
+                & .contact{
+                    & li{
+                        & img{
+                            width: 15%;
+                        }
+                    }
+                    & .txt {
+                        text-align: center;
+                    }
+                    & .email{
+                        margin: 0 auto;
+                    }
+                }
+            }
+            & .photo_footer{
+                & img{
+                    display: none;
+                }
+            }
+        }
+        & .footer_additional{
+            text-align: center;
+            & .footer_additional_list{
+           
+                padding-left: 10px;
+                padding-right: 10px;
+
+            }
+        }
+    }
+    .price_block{
+        & .price_wrapper{
+            & .price_card{
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-column-gap: 15px;
+            }
+        }
+    }
+    .photo_block{
+        & .photo_block_wrapper{
+            & .photo_card{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+  .video_blog{
+    &   .video_blog_wrapper{
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+  }
+  .review_block{
+    & .review_wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+@media (max-width:768px){
+    .home_block{
+        & .home_wrapper{
+            & .home_title{
+                & p{
+                    font-size:28px;
+                }
+            }
+            & .home_additional{
+                display: flex;flex-flow: wrap;
+                & .home_additional_form{
+                    order: 2;
+                    & .home_additional_form_btn{
+                        & p{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                & .home_additional_photo{
+                    order: 1;
+                }
+            }
+        }
+    }
+    .card_block_right{
+        & .card_wrapper_right{
+            & .right_block{
+                & .title_text{
+                    font-size: 38px;
+                    font-weight: bold;
+                    line-height: 30px;
+                    margin-top: 20px;
+                }
+                & .info_text{
+                    line-height: 22px;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .card_block{
+        & .card_wrapper{
+            & .right_block{
+                & .title_text{
+                    font-size: 38px;
+                    font-weight: bold;
+                    line-height: 30px;
+                    margin-top: 20px;
+                }
+                & .info_text{
+                    line-height: 22px;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .info_block{
+        & .info_wrapper{
+            & .title_text_info{
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+    .price_block{
+        & .price_wrapper{
+            & .price_card{
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 15px;
+            }
+        }
+    }
+    .review_block{
+        & .review_wrapper{
+            grid-template-columns: 1fr;
+        }
+      }
+      .photo_block{
+        & .photo_block_wrapper{
+            & .photo_card{
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
+@media (max-width:501px){
+
+        .garantia_wrapper{
+            & .top_text{
+                font-size: 24px !important;
+                color: red;
+            }
+            & .under_text{
+                font-size: 18px !important;
+                color: red;
+            }
+        }
+
+    .home_additional_form_btn_first .form_home input{
+        margin-bottom: 5px;
+    }
+    .home_additional_form_btn_first .form_home .btn_form{
+        margin-bottom: 15px;
+    }
+    .btn_contact_get{
+        & .btn{
+            padding: 1em 1.5em;
+        }
+    }
+    .btn_contact_get_right{
+        & .btn{
+            padding: 1em 1.5em;
+        }
+    }
+
+        .price_block{
+            & .price_wrapper{
+                & .price_card{
+                    grid-column-gap: 10px;
+                    & .card{
+                        & .price{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    .card_block{
+        & .card_wrapper{
+        & .left_block{
+            margin-bottom: 0px;
+        }
+            & .right_block{
+                & .title_text{
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 30px;
+                    margin-top: 20px;
+                }
+                & .info_text{
+                    line-height: 22px;
+                    font-size: 16px;
+                    margin-bottom: 35px;
+                }
+                & .about_text{
+                    & p{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+    .card_block_right{
+        & .card_wrapper_right{
+            & .right_block{
+                & .title_text{
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 30px;
+                    margin-top: 20px;
+                }
+                & .info_text{
+                    line-height: 22px;
+                    font-size: 16px;
+                }
+                & .about_text{
+                    & p{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .home_block{
+    margin-top: -25px;
+    & .home_wrapper{
+        & .home_additional{
+            & .home_additional_form{
+                & .home_additional_form_text{
+                    & p{
+                        margin: 0;
+                    }
+                }
+                & .home_additional_form_btn{
+                    & .form_home{
+                       
+                        & input{
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+    .header_block{
+        & .header_logo{
+            padding: 5px;
+            & img{
+               
+            }
+        }
+        & .header_list{
+            & .list_info{
+                margin-top: 5px;
+                & .number_block{
+                     & .text_number{
+                        font-size: 10px;
+                     }
+                     & .phone_number{
+                        & img{
+                            height: 45px;
+                        }
+                        & a{
+                            font-size: 45px;
+                        }
+                     }
+                }
+            }
+        }
+    }
+    .smallPict_small{
+        height: 150px !important;
+    }
+    .card_block{
+        & .card_wrapper{
+            & .left_block{
+                & .card_photo{
+                    & .big_photo{
+                        height: auto;
+                        & img{
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .card_block_right{
+        & .card_wrapper_right{
+            & .left_block{
+                & .card_photo{
+                    & .big_photo{
+                        height: auto;
+                        & img{
+                            height: auto;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+    .btn_contact_get{
+        display: block;
+        text-align: center;
+        & .group{
+            display: inline-flex;
+            margin-bottom: 25px;
+            & .input_contact_get{
+                display: inline-flex;
+            }
+            
+        }
+    }
+    .btn_contact_get_right{
+        display: block;
+        text-align: center;
+        & .group{
+            display: inline-flex;
+            margin-bottom: 25px;
+            & .input_contact_get{
+                display: inline-flex;
+            }
+            
+        }
+    }
+   
+}
+@media (max-width:426px){
+    .info_block{
+        & .info_wrapper{
+            & .title_text_info{
+             
+                font-size: 28px;
+            }
+        }
+    }
+    .home_block{
+        & .home_wrapper{
+            & .home_title{
+                padding-top: 20px;
+                & p{
+                    font-size: 24px;
+                    margin-bottom: 30px;
+                 
+                }
+            }
+            & .home_additional{
+                & .home_additional_form{
+                    & .home_additional_form_text{
+                        & p{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .price_block{
+        & .price_wrapper{
+            & .price_card{
+                & .card{
+                    & .price{
+                        font-size: 14px;
+                    }
+                    & .text_under_photo{
+                        font-size: 12px;
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+}

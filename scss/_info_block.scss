@@ -1,0 +1,18 @@
+.info_block{
+    & .info_wrapper{
+        text-align: center;
+        & .title_text_info{
+            font-size: 40px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        & .text_info{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        & hr{
+            width: 150px;
+            border: 0.1px solid #b2b2b2;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #EAF5D6;
+}
+.container{
+    max-width: 1270px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+  .header_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background-color: #EAF5D6;
+    & .header_logo{
+        padding: 5px 15px 0 15px;
+        width: 100%;
+       
+    }
+    & .header_list{
+        & .list_info{
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 1.5fr 0.5fr;
+            & .number_block{
+               display: block;
+               & .phone_number{
+                display: flex;
+                & a{
+                    font-size: 40px;
+                    color: #CD0A00;
+                    font-family: 'Open_Sans_semi_bold';
+                    text-shadow: 2px 4px 1px black;
+                    font-weight: bold;
+                    text-decoration: none;
+                    margin-top: -10px;
+                   
+                }
+                & a:hover{
+                    color: #af1204;
+                    cursor: pointer;
+                    -webkit-text-stroke: 1px #fff;
+                }
+                & img{
+                    height: 40px;
+                }
+               
+               }
+            
+               & .text_number{
+                text-transform: uppercase;
+                color: #CD0A00;
+                font-size: 14px;
+                font-family: 'Open_Sans_semi_bold';
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+            }
+            & li{
+                & .logo_viber{
+                    width: 50%;
+                    
+                }
+                & .logo_viber:hover{
+                    cursor: pointer;
+                    -webkit-text-stroke: 1px #fff;
+                }
+            }
+        }
+    }
+
+  }
+  @media (max-width:768px){
+    .header_block{
+        & .header_burger {
+        display: block;
+        margin: 15px 0 15px 0;
+      }
+    }
+  }
+  .back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    background: #00ba20;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .back_to_top:hover {
+    background: #02a91e;
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
+  

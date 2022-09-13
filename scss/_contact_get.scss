@@ -1,0 +1,171 @@
+.btn_contact_get{
+    display: flex;
+    // margin-top: 50px;
+            & .btn{
+                font-size: 14px;
+                font-weight: 700;
+                color: #fff;
+                background: #00ba20;
+                padding: 1.5em 2em;
+                border-radius: 0.6em;
+                letter-spacing: .02em;
+                border-radius: 10px;
+                border: none;
+                transition: all 0.2s;
+                margin: 5px;
+                border-bottom: 0px solid #eee;
+                cursor:pointer;
+            }
+            & .btn:active{
+              transform: scaleX(0.9) translateY(4px);
+            }
+            & .btn:not(:active){
+              box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+            }
+            
+        }
+        .label_contact_get {
+           position: absolute;
+            pointer-events: none;
+            left: 10px;
+            top: -15px;
+            font-size: 14px;
+            color: #5264AE;
+            transition: 0.2s ease all;
+            -moz-transition: 0.2s ease all;
+            -webkit-transition: 0.2s ease all;
+          }
+          
+         
+          input:focus ~ label, input:valid ~ label {
+            top: -15px;
+            font-size: 14px;
+            color: #5264AE;
+          }
+          .bar {
+            position: relative;
+          }
+          .bar:before, .bar:after {
+            content: "";
+            height: 2px;
+            width: 0;
+            bottom: 0;
+            position: absolute;
+            background: #5264AE;
+            transition: 0.2s ease all;
+            -moz-transition: 0.2s ease all;
+            -webkit-transition: 0.2s ease all;
+          }
+          .bar:before {
+            left: 50%;
+          }
+          .bar:after {
+            right: 50%;
+          }
+          .input_contact_get:focus ~ .bar:before,
+          .input_contact_get:focus ~ .bar:after {
+            width: 50%;
+          }
+          .group {
+            position: relative;
+            margin-right: 20px;
+            
+          }
+          .input_contact_get {
+            font-size: 16px;
+            padding: 10px;
+            margin-top: 15px;
+            display: block;
+            border: none;
+            border-bottom: 1px solid #ccc;
+          }
+          .input_contact_get:focus {
+            outline: none;
+          }
+.btn_contact_get_right{
+            display: flex;
+            margin-top: 50px;
+            & .group {
+              position: relative;
+              margin-right: 30px;
+              margin-left: 0px;
+            }
+            & .btn{
+              font-size: 14px;
+              font-weight: 700;
+              color: #fff;
+              background: #00ba20;
+              padding: 1.5em 2em;
+              border-radius: 0.6em;
+              letter-spacing: .02em;
+              border-radius: 10px;
+              margin-right: 30px;
+              border: none;
+              transition: all 0.2s;
+              margin: 5px;
+              border-bottom: 0px solid #eee;
+              cursor:pointer;
+          }
+          & .btn:active{
+            transform: scaleX(0.9) translateY(4px);
+          }
+          & .btn:not(:active){
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+          }
+                }
+                .label_contact_get {
+                  position: absolute;
+                  pointer-events: none;
+                  left: 10px;
+                  top: -15px;
+                  font-size: 14px;
+                  color: #5264AE;
+                  transition: 0.2s ease all;
+                  -moz-transition: 0.2s ease all;
+                  -webkit-transition: 0.2s ease all;
+                }
+                  
+                 
+                .input_contact_get:focus ~ label, .input_contact_get:valid ~ label {
+                    top: -15px;
+                    font-size: 14px;
+                    color: #5264AE;
+                  }
+                  .input_contact_get::placeholder{
+                    opacity: 1;
+                  }
+                  .bar {
+                    position: relative;
+                  }
+                  .bar:before, .bar:after {
+                    content: "";
+                    height: 2px;
+                    width: 0;
+                    bottom: 0;
+                    position: absolute;
+                    background: #5264AE;
+                    transition: 0.2s ease all;
+                    -moz-transition: 0.2s ease all;
+                    -webkit-transition: 0.2s ease all;
+                  }
+                  .bar:before {
+                    left: 50%;
+                  }
+                  .bar:after {
+                    right: 50%;
+                  }
+                  .input_contact_get:focus ~ .bar:before,
+                  .input_contact_get:focus ~ .bar:after {
+                    width: 50%;
+                  }
+                  
+                  .input_contact_get {
+                    font-size: 16px;
+                    padding: 10px;
+                    display: block;
+                    border: none;
+                    border-bottom: 1px solid #ccc;
+                  }
+                  .input_contact_get:focus {
+                    outline: none;
+                  }
